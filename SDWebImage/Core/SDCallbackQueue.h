@@ -6,8 +6,7 @@
  * file that was distributed with this source code.
  */
 
-
-#import "SDWebImageCompat.h"
+#import <SDWebImage/SDWebImageCompat.h>
 
 /// SDCallbackPolicy controls how we execute the block on the queue, like whether to use `dispatch_async/dispatch_sync`, check if current queue match target queue, or just invoke without any context.
 typedef NS_ENUM(NSUInteger, SDCallbackPolicy) {

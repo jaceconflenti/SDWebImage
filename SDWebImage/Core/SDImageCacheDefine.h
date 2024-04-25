@@ -7,10 +7,10 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "SDWebImageCompat.h"
-#import "SDWebImageOperation.h"
-#import "SDWebImageDefine.h"
-#import "SDImageCoder.h"
+#import <SDWebImage/SDWebImageCompat.h>
+#import <SDWebImage/SDWebImageOperation.h>
+#import <SDWebImage/SDWebImageDefine.h>
+#import <SDWebImage/SDImageCoder.h>
 
 /// Image Cache Type
 typedef NS_ENUM(NSInteger, SDImageCacheType) {

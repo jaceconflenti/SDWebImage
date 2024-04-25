@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-#import "SDWebImageCompat.h"
+#import <SDWebImage/SDWebImageCompat.h>
 
 /// An error domain represent SDWebImage loading system with custom codes
 FOUNDATION_EXPORT NSErrorDomain const _Nonnull SDWebImageErrorDomain;

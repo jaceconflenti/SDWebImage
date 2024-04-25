@@ -6,9 +6,8 @@
  * file that was distributed with this source code.
  */
 
-#import "SDWebImageCompat.h"
-#import "SDImageCoder.h"
-
+#import <SDWebImage/SDWebImageCompat.h>
+#import <SDWebImage/SDImageCoder.h>
 
 /**
  This is the protocol for SDAnimatedImage class only but not for SDAnimatedImageCoder. If you want to provide a custom animated image class with full advanced function, you can conform to this instead of the base protocol.

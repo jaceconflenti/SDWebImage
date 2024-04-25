@@ -7,7 +7,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "SDWebImageCompat.h"
+#import <SDWebImage/SDWebImageCompat.h>
 
 /**
  A loading state to manage View Category which contains multiple states. Like UIImgeView.image && UIImageView.highlightedImage

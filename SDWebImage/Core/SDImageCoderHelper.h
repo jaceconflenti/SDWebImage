@@ -7,8 +7,8 @@
  */
 
 #import <ImageIO/ImageIO.h>
-#import "SDWebImageCompat.h"
-#import "SDImageFrame.h"
+#import <SDWebImage/SDWebImageCompat.h>
+#import <SDWebImage/SDImageFrame.h>
 
 /// The options controls how we force pre-draw the image (to avoid lazy-decoding). Which need OS's framework compatibility
 typedef NS_ENUM(NSUInteger, SDImageCoderDecodeSolution) {

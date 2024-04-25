@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-#import "SDWebImageCompat.h"
+#import <SDWebImage/SDWebImageCompat.h>
 
 /// The scale mode to apply when image drawing on a container with different sizes.
 typedef NS_ENUM(NSUInteger, SDImageScaleMode) {

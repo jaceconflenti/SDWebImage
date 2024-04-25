@@ -7,7 +7,7 @@
 */
 
 #import <Foundation/Foundation.h>
-#import "SDImageCoder.h"
+#import <SDWebImage/SDImageCoder.h>
 
 /**
  This is the abstract class for all animated coder, which use the Image/IO API. You can not use this directly as real coders. A exception will be raised if you use this class.
